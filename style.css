@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+body{
+    font-family: 'muli';
+    font-weight: 300;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/**
+=====================
+HEADER STYLE
+=====================
+**/
+header{
+    background-color: #4834d4;
+}
+header nav .nav-link{
+    color:white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 32px;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-brand span{
+    font-family:'Ubuntu' ;
+    font-weight: 700;
+    font-size: 32px;
+    color: #d484eb;
+}
+header nav .nav-item{
+    margin-right: 10px;
+}
+header nav .nav-link:hover{
+    color: #d484eb;
+}
+.navbar-toggler-icon{
+    color:white;
+    background-color:red;
+}
+/**
+=====================
+SLIDER STYLE
+=====================
+**/
+.carousel-item img{
+    height: 640px;
+}
+.carousel-caption h5{
+    font-family: 'roboto';
+    font-weight:700;
+    font-size: 60px;
+}
+.carousel-caption h5 span{
+    color:#d484eb ;
+    font-size: 70px;
+}
+.carousel-caption p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-weight: 4oo;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.our-btn{
+    background-color:transparent ;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 4px 20px;
+    color: white;
+}
+.our-btn:hover{
+    background-color: #d484eb;
+    border: 2px solid transparent;
+}
+.carousel-caption{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/**
+=====================
+<MAILCHAP STYLE
+=====================
+**/
+#market{
+    background-image: url("assets/img/img4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.mail{
+    padding: 100px;
+}
+.mail h3{
+    font-size: 70px;
+    font-family: 'Ubuntu';
+    width: 100%;
+    color:#d484eb ;
+}
+.mail p{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    letter-spacing:10px;
+    color: #4834d4;
+}
+/**
+=====================
+SERVICE STYLE
+=====================
+**/
+#service .card i{
+    font-size: 40px;
+    background-color: #d484eb;
+    padding: 20px;
+    color: #4834d4;
+    border-radius: 50%;}
+#service .card{
+    background-color:#efefef;
+    padding: 10px;
+    padding-top: 20px;
+}
+#service p{
+    font-family: 'Dancing Script';
+    font-weight: 400;
+}
+
+#service h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#service .card:hover{
+    background-color: #d484eb;
+    color: white;
+    transition:all 0.4s ease;
+}
+#service .card:hover i{
+    border:2px solid white;
+    
+}
+/**
+=====================
+PRICEING STYLE
+=====================
+**/
+#pricing .card .card-body{
+    padding: 0;
+}
+#pricing .card{
+    background-color:#efefef;
+    padding: 10px;
+    padding-top: 20px;
+}
+#pricing .card .sm{
+    width:50%;
+    margin: 0 auto;
+    background-color: white;
+    color:green;
+}
+
+#pricing .card .sv {
+    color:white;
+}
+
+#pricing h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+}
+#pricing{
+    background-image: url("assets/img/slider/img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#pricing .container h2{
+    color: white;
+}
+#pricing .card ul li{
+    list-style: none;
+    border-bottom:0.3px solid darkgray;
+    padding: 5px;
+    
+}
+.single-btn button{
+    background-color: #2cd497;
+}
+/**
+=====================
+CONTACT STYLE
+=====================
+**/
+#contact{
+    background-color: #efefef;
+}
+#contact h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+}
+.col-md-6 img{
+    height: 340px;
+    width: 100%;
+}
+/**
+=====================
+FOOTER AREA STYLE
+=====================
+**/
+footer .single-footer .social i{
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    background-color:white;
+
+}
+footer .single-footer .social i:hover{
+    
+    color:white; ;
+    background-color:#d484eb;
+}
+footer .single-footer .sf-head{
+    color:white;
+    font-family: "ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+footer .single-footer .single-body{
+    color: white;
+}
+footer .single-footer .single-body ul li a{
+    color: white;
+}
+footer .single-footer .single-body ul li a:hover{
+    color: #d484eb;
+    text-decoration: none;
+}
